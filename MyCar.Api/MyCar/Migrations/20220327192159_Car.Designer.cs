@@ -9,7 +9,7 @@ using MyCar.Context;
 namespace MyCar.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220327184648_Car")]
+    [Migration("20220327192159_Car")]
     partial class Car
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
